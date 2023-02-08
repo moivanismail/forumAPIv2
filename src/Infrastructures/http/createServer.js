@@ -55,6 +55,7 @@ const createServer = async (container) => {
     },
   ])
 
+
   // tambahan feature say hello world
   server.route({
     method: 'GET',
@@ -63,6 +64,7 @@ const createServer = async (container) => {
       value: 'Hello World!',
     }),
   });
+
 
   server.ext('onPreResponse', (request, h) => {
     // mendapatkan konteks response dari request

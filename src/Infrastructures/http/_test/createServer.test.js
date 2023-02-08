@@ -39,7 +39,6 @@ describe('HTTP server', () => {
   });
 });
 
-// tambahan feature say hello world
 describe('when GET /', () => {
   it('should response 200 and say hello world', async () => {
     // Arrange
