@@ -55,6 +55,7 @@ const createServer = async (container) => {
     },
   ])
 
+  // tambahan feature say hello world
   server.route({
     method: 'GET',
     path: '/',
